@@ -28,6 +28,8 @@
  * 输入的分数个数范围是 [1,10]。
  * 最终结果的分子与分母保证是 32 位整数范围内的有效整数。
  */
+
+//做的不错，思路清晰，代码简洁
 class Solution10 {
     public String fractionAddition(String expression) {
         long x = 0, y = 1; // 分子，分母
